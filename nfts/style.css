@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+}
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 25%;
+    /* height: 70vh; */
+    margin: auto;
+    margin-top: 4em;
+    border-radius: 10px;
+    
+}
+.upper img {
+   width: 90%;
+   border-radius: 10px; 
+   margin-top: 1em;
+}
+.upper {
+    display: flex;
+    justify-content: center;
+    
+}
+.header {
+    padding-left: 1em;
+}
+.header h2 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+.text{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    padding-left: 1em;
+    text-align: start;
+    line-height: 1.5em;
+}
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    /* width: 100%; */
+    /* border: solid white; */
+}
+
+.left {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    padding-left: 0.5em;
+}
+.left1 img{
+    /* border: solid white; */
+    width: 9%;
+    height: 6vh;
+    padding-top: 1em;
+}
+.bd {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.lower {
+    display: flex;
+}
+.lower img {
+    width: 10%;
+    height: 5vh;
+    margin-top: 4%;
+    margin-left: 4%;
+    border: solid hsl(0, 0%, 100%) 1px;
+    border-radius: 50%;
+    
+}
+.p2 {
+    margin-left: 10px;
+    color: hsl(215, 32%, 27%);
+}
+.p2 p{
+    padding-top: 0.5em;
+}
+span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    margin-left: 2px;
+}
+.left1 {
+    display: flex;
+    padding-left: 0.8em;
+    width: 50%;
+}
+.right1 {
+    display: flex;
+    width: 40%;
+}
+.right1 img{
+    width: 12%;
+    height: 6vh;
+    padding-top: 1.2em;
+
+}
+
+
+@media (min-width: 390px) {
+    
+    .container {
+        width: 70%;
+        height: 60vh;
+    }
+    .lower img {
+      
+        margin-top: 4%; 
+        
+    }
+    
+}
+@media (min-width: 768px) {
+    
+    .container {
+        width: 50%;
+        height: 110vh;
+    }
+    .lower img {
+      
+        margin-top: 4%;
+        
+        
+    }
+}
+@media (min-width: 1000px) {
+    
+    .container {
+        width: 30%;
+    }
+}
+    
+    
